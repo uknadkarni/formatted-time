@@ -15,12 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-public class UpperApplication {
+public class FormattedTime {
 
-	private Logger logger = Logger.getLogger(UpperApplication.class);
+	private Logger logger = Logger.getLogger(FormattedTime.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(UpperApplication.class, args);
+		SpringApplication.run(FormattedTime.class, args);
 	}
 
 	public String getFormattedTime() {
