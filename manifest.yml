@@ -1,0 +1,7 @@
+---
+applications:
+- name: formatted-time-ut 
+  memory: 512M
+  host: formatted-time-ut 
+  path: target/upper-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
